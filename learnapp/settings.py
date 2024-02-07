@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+z*4-uvc8r!d1xvq@qifrid0g@=s0!*_&t2wfa_e6xp6@-%j+x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['45.55.71.250']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -86,7 +86,7 @@ else:
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'learnDB',
         'USER': 'mosay',
-        'PASSWORD': 'kan360@$',
+        'PASSWORD': 'kan360@$', 
         'HOST': 'localhost',
         'PORT': '',
     }
