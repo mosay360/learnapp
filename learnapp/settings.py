@@ -86,7 +86,7 @@ else:
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'learndb',
-        'USER': 'postgres',
+        'USER': 'mosay',
         'PASSWORD': 'kan360@$', 
         'HOST': 'localhost',
         'PORT': '',
